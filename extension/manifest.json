@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "name": "YouTube Playlist Quick Remove",
+    "version": "1.0.0",
+    "content_scripts": [
+        {
+            "matches": [
+                "https://www.youtube.com/*"
+            ],
+            "js": [
+                "youtube-playlist-quick-remove.js"
+            ]
+        }
+    ]
+}
