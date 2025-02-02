@@ -1,15 +1,16 @@
 {
-    "manifest_version": 3,
-    "name": "YouTube Playlist Quick Remove",
-    "version": "1.0.0",
-    "content_scripts": [
-        {
-            "matches": [
-                "https://www.youtube.com/*"
-            ],
-            "js": [
-                "youtube-playlist-quick-remove.js"
-            ]
-        }
-    ]
+  "manifest_version": 3,
+  "name": "YouTube Playlist Quick Remove",
+  "version": "1.0.0",
+  "content_scripts": [
+    {
+      "matches": ["https://www.youtube.com/*"],
+      "js": ["youtube-playlist-quick-remove.js"]
+    }
+  ],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "youtube-playlist-quick-remove@kylecorry.com"
+    }
+  }
 }

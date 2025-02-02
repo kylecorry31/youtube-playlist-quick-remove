@@ -10,8 +10,14 @@ A Chrome extension I use to quickly remove videos from a playlist.
 4. Select the extension folder
 5. (Optional) Disable Developer Mode
 
+### Using as a Firefox Extension
+1. Package the contents of the extension folder as a zip file (the files only, not the folder itself)
+2. Manage Extensions
+3. Install Add-on From File
+4. Select the zip file
+
 ### Using with Tampermonkey
-Create a new script in Tampermonkey and copy the contents of `extension/youtube-olaylist-quick-remove.js` into it.
+Create a new script in Tampermonkey and copy the contents of `extension/youtube-playlist-quick-remove.js` into it.
 
 ## Support
 I don't plan on providing support if it isn't working for you, though I'll keep it up to date since I use it.
